@@ -1,5 +1,5 @@
 <p><h1># South Australia University Student Registry API</h1></p>
-<p><b>This Project is built based on the Technical Assessment provided by Vimigo. Therefore, the project will remain Private.</b>
+<p><b>This Project is built based on the Technical Assessment provided by Vimigo</b>
 <br><br>
     <hr>
 <h3>Present By</h3>
