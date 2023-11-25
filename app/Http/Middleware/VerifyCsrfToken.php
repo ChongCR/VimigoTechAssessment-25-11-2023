@@ -13,20 +13,20 @@ class VerifyCsrfToken extends Middleware
      */
     protected $except = [
         //FOR POSTMAN TEST
-        '/index',
-        '/index/studentManagement/lists',
-        '/index/studentManagement/details/*',
-        '/index/studentManagement/create',
-        '/index/studentManagement/store',
-        '/index/studentManagement/edit/*',
-        '/index/studentManagement/update/*',
-        '/index/studentManagement/delete/*',
-        '/logout',
-        '/index/studentManagement/import',
-        '/generate-excel',
-        '/index/studentManagement/students/search',
-        '/login',
-        '/register',
-        '/logout'
+        //'/index',
+        //'/index/studentManagement/lists',
+        //'/index/studentManagement/details/*',
+        //'/index/studentManagement/create',
+        //'/index/studentManagement/store',
+        //'/index/studentManagement/edit/*',
+        //'/index/studentManagement/update/*',
+        //'/index/studentManagement/delete/*',
+        //'/logout',
+        //'/index/studentManagement/import',
+        //'/generate-excel',
+        //'/index/studentManagement/students/search',
+        //'/login',
+        //'/register',
+        //'/logout'
     ];
 }
