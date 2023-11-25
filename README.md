@@ -46,3 +46,9 @@ This project is a RESTful API developed for the South Australia University Stude
 <b>run</b> php artisan passport:install
 
 
+<p><h2>Postman collection</h2>
+
+<b><a href="https://github.com/ChongCR/VimigoTechAssessment-25-11-2023/blob/master/Vimigo%20Assessment.postman_collection.json" target="_blank">VimigoTech Assessment Postman Collection</a><br>
+
+
+
