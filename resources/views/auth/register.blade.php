@@ -58,19 +58,20 @@
                                 </div>
                             </div>
 
-                            <div class="row mb-0">
-                                <div class="row offset-md-4 ">
+                            <div class="row mb-4">
+                                <div class="col-md-8 offset-md-4 ">
 
-                                    <a href="/login">
-                                        <button type="button" class="col-2 btn btn-secondary m-2"> Back </button>
+                                    <a href="/login" class="m-0 p-0">
+                                        <button type="button" class=" btn btn-secondary w-25"> Back </button>
                                     </a>
 
-
-                                    <button type="submit" class="col-2 btn btn-primary m-2">
+                                    <button type="submit" class="btn btn-primary m-2 w-25">
                                         {{ __('Register') }}
                                     </button>
 
                                 </div>
+
+
                             </div>
 
 
