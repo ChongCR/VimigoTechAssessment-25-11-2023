@@ -18,18 +18,18 @@
                     </div>
 
                     <div class="card-body">
-                        @error('credential')
-                        <div class="row mb-3">
-                            <div class="col-md-6 offset-md-4">
-                                <p class="invalid-feedback" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </p>
-                            </div>
-                        </div>
-                        @enderror
+
 
                         <form id="loginForm" method="POST" action="{{ route('submit.login') }}">
                             @csrf
+
+                            @if(session('credential'))
+                                <div class="col-md-8 offset-md-2">
+                                <div class="alert alert-danger">
+                                    {{ session('credential') }}
+                                </div>
+                                </div>
+                            @endif
 
                             <div class="row mb-3">
                                 <label for="email" class="col-md-4 col-form-label text-md-end">{{ __('Email Address') }}</label>
@@ -47,7 +47,10 @@
                                 </div>
                             </div>
 
+
+
                             <div class="row mb-4">
+
                                 <div class="col-md-8 offset-md-4">
                                     <button type="submit" class="btn btn-primary w-25">{{ __('Login') }}</button>
                                     <a href="/register">
@@ -56,6 +59,9 @@
 
                                 </div>
                             </div>
+
+
+
                         </form>
                     </div>
                 </div>

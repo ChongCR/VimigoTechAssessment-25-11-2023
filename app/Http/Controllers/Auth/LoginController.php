@@ -32,7 +32,7 @@ class LoginController extends Controller
             return redirect('/index')->with('access_token', $token);
         } else {
 
-            return back()->with('error', 'Invalid credentials');
+            return back()->with('credential', 'Invalid credentials');
         }
     }
 

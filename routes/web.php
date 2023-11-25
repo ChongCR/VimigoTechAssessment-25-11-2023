@@ -30,7 +30,6 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/index/studentManagement/import', [ImportController::class,'import'])->name('import.store');
     Route::get('/generate-excel', [\App\Http\Controllers\ExcelSampleGeneratorController::class, 'generateExcel'])->name('generate.excel');
     Route::get('/index/studentManagement/students/search',[\App\Http\Controllers\StudentController::class,'search'])->name('students.search');
-
 });
 
 Route::get('', function () {
