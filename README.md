@@ -36,5 +36,11 @@ This project is a RESTful API developed for the South Australia University Stude
 
 
 <p><h2>Installation and Setup</h2>
-
+    
+<b>run</b> composer update<br>
+<b>run</b> npm install<br>
+<b>chg</b> .env.example to .env<br>
+<b>run</b> php artisan key:generate<br>
+<b>run</b> php artisan migrate<br>
+<b>run</b> composer require laravel/passport
 
