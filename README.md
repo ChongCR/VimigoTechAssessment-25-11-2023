@@ -43,4 +43,6 @@ This project is a RESTful API developed for the South Australia University Stude
 <b>run</b> php artisan key:generate<br>
 <b>run</b> php artisan migrate<br>
 <b>run</b> composer require laravel/passport
+<b>run</b> php artisan passport:install
+
 
