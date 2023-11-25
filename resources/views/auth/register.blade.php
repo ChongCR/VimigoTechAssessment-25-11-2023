@@ -60,9 +60,12 @@
 
                             <div class="row mb-0">
                                 <div class="row offset-md-4 ">
-                                    <button type="submit" class=" col-2 btn btn-secondary m-2">
-                                        Back
-                                    </button>
+
+                                    <a href="/login">
+                                        <button type="button" class="col-2 btn btn-secondary m-2"> Back </button>
+                                    </a>
+
+
                                     <button type="submit" class="col-2 btn btn-primary m-2">
                                         {{ __('Register') }}
                                     </button>
