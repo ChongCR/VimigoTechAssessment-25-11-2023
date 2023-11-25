@@ -16,6 +16,8 @@ This project is a RESTful API developed for the South Australia University Stude
 
 <p><h2>Video</h2>
 
+<h3> https://streamable.com/apr8dh </h3>
+
 <p><h2>Technologies Used</h2>
 <ul>
 <li>Laravel</li>
