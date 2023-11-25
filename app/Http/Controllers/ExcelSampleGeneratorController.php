@@ -18,7 +18,12 @@ class ExcelSampleGeneratorController extends Controller
             ['Rock Chong', 'chongcr128@gmail.com', 'Rawang', 'FOCS'],
         ];
 
+
+
+        // Return the Excel download response
         return Excel::download(new StudentExport($data), 'students.xlsx');
+
+
     }
 
 }

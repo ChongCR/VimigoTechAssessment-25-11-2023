@@ -30,11 +30,11 @@ class ImportController extends Controller
         try {
             Excel::import(new StudentsImport($operation), $file);
 
-            return redirect()->back()->with('success', 'Import completed successfully.');
+            return redirect()->back()->with('success', 'Import Action completed successfully.');
 
         } catch (\Exception $e) {
 
-            return redirect()->back()->with('error', 'Error importing data: ' . $e->getMessage());
+            return redirect()->back()->with('error', 'Error importing data, please check your format.');
         }
     }
 }
